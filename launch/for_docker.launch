@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node name="jagariko" pkg="catchrobo" type="detect_jagariko.py" output="screen"/>
+
+</launch>
