@@ -1,7 +1,8 @@
 # 使い方
 詳しくはesa
 
-dockerで環境をつくってあるので、opencvが面倒だったり、ubuntu18.04 melodicならdockerを使える
+python3なのでnoetic対応
+dockerで環境をつくってあるので、dockerで走らせつつ、melodicでトピックを受け取るなどできる
 
 ```
 #catchroboの中で
@@ -16,3 +17,6 @@ cd
 bash
 rosrun catchrobo detect_jagariko.py
 ```
+
+numpyとMultiArray変換の参考記事
+https://qiita.com/kotarouetake/items/3c467e3c8aee0c51a50f
